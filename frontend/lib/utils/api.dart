@@ -7,7 +7,7 @@ import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 class API {
   final Dio _dio = Dio();
 
-  String urlprefix = "https://www.bbbprediction.com";
+  String urlprefix = "https://api.bbbprediction.com";
 
   API() {
     _dio.options.baseUrl = urlprefix;

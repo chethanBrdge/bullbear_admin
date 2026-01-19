@@ -17,7 +17,7 @@ class _PlatformConfigScreenState extends State<PlatformConfigScreen> {
 
   bool loading = true;
   final Dio dio = Dio();
-  final String baseUrl = "https://www.bbbprediction.com/";
+  final String baseUrl = "https://api.bbbprediction.com/";
 
   @override
   void initState() {

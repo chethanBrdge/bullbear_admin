@@ -71,7 +71,7 @@ class _UserBetsScreenState extends State<UserBetsScreen>
 
       final dio = Dio();
       dio.options.baseUrl =
-          "https://www.bbbprediction.com/";
+          "https://api.bbbprediction.com/";
       dio.options.headers = {
         "Authorization": "Bearer $token",
         "Content-Type": "application/json",

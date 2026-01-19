@@ -78,7 +78,7 @@ class _OverviewScreenState extends State<OverviewScreen> {
     final token = prefs.getString('access_token');
 
     dio.options.baseUrl =
-        "https://www.bbbprediction.com";
+        "https://api.bbbprediction.com";
     dio.options.headers = {
       "Content-Type": "application/json",
       "Authorization": "Bearer $token",

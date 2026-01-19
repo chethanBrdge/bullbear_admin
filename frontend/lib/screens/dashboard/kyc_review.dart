@@ -37,7 +37,7 @@ class _KycReviewScreenState extends State<KycReviewScreen> {
       final dio = Dio();
 
       dio.options.baseUrl =
-          "https://www.bbbprediction.com/";
+          "https://api.bbbprediction.com/";
       dio.options.headers = {
         "Authorization": "Bearer $token",
         "Content-Type": "application/json",
@@ -65,7 +65,7 @@ class _KycReviewScreenState extends State<KycReviewScreen> {
       final dio = Dio();
 
       dio.options.baseUrl =
-          "https://www.bbbprediction.com/";
+          "https://api.bbbprediction.com/";
       dio.options.headers = {
         "Authorization": "Bearer $token",
         "Content-Type": "application/json",
@@ -84,7 +84,7 @@ class _KycReviewScreenState extends State<KycReviewScreen> {
       final token = prefs.getString('access_token');
       final dio = Dio();
       dio.options.baseUrl =
-          "https://www.bbbprediction.com/";
+          "https://api.bbbprediction.com/";
       dio.options.headers = {
         "Authorization": "Bearer $token",
         "Content-Type": "application/json",
@@ -135,7 +135,7 @@ class _KycReviewScreenState extends State<KycReviewScreen> {
       final token = prefs.getString('access_token');
       final dio = Dio();
       dio.options.baseUrl =
-          "https://www.bbbprediction.com";
+          "https://api.bbbprediction.com";
       dio.options.headers = {
         "Authorization": "Bearer $token",
         "Content-Type": "application/json",

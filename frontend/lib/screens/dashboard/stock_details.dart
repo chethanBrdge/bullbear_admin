@@ -38,7 +38,7 @@ class _MarketBySymbolScreenState extends State<MarketBySymbolScreen>
     final dio = Dio();
 
     dio.options.baseUrl =
-        "https://www.bbbprediction.com/";
+        "https://api.bbbprediction.com/";
     dio.options.headers = {
       "Authorization": "Bearer $token",
       "Content-Type": "application/json",
@@ -97,7 +97,7 @@ class _MarketBySymbolScreenState extends State<MarketBySymbolScreen>
       final dio = Dio();
 
       dio.options.baseUrl =
-          "https://www.bbbprediction.com/";
+          "https://api.bbbprediction.com/";
       dio.options.headers = {
         "Authorization": "Bearer $token",
         "Content-Type": "application/json",
@@ -126,7 +126,7 @@ Future<void> nudgeOdds({
     final token = prefs.getString('access_token');
     final dio = Dio();
 
-    dio.options.baseUrl = "https://www.bbbprediction.com/";
+    dio.options.baseUrl = "https://api.bbbprediction.com/";
     dio.options.headers = {
       "Authorization": "Bearer $token",
       "Content-Type": "application/json",
@@ -188,7 +188,7 @@ Future<void> resetMarketOdds(int marketId) async {
     final dio = Dio();
 
     dio.options.baseUrl =
-        "https://www.bbbprediction.com/";
+        "https://api.bbbprediction.com/";
     dio.options.headers = {
       "Authorization": "Bearer $token",
       "Content-Type": "application/json",
@@ -224,7 +224,7 @@ Future<void> resetMarketOdds(int marketId) async {
     final dio = Dio();
 
     dio.options.baseUrl =
-        "https://www.bbbprediction.com/";
+        "https://api.bbbprediction.com/";
     dio.options.headers = {
       "Authorization": "Bearer $token",
       "Content-Type": "application/json",

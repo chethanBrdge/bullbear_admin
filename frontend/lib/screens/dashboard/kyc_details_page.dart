@@ -35,7 +35,7 @@ class _KycDetailPageState extends State<KycDetailPage> {
       String parsedId = rawId.replaceAll(RegExp(r'^U-0*'), '');
 
       dio.options.baseUrl =
-          "https://www.bbbprediction.com/";
+          "https://api.bbbprediction.com/";
       dio.options.headers = {
         "Authorization": "Bearer $token",
         "Content-Type": "application/json",
@@ -69,7 +69,7 @@ class _KycDetailPageState extends State<KycDetailPage> {
       String parsedId = rawId.replaceAll(RegExp(r'^U-0*'), '');
 
       dio.options.baseUrl =
-          "https://www.bbbprediction.com/";
+          "https://api.bbbprediction.com/";
       dio.options.headers = {
         "Authorization": "Bearer $token",
         "Content-Type": "application/json",
