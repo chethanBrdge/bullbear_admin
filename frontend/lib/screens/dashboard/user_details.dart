@@ -41,7 +41,7 @@ class _UserDetailsState extends State<UserDetails> {
   final DateFormat _apiDateFormat = DateFormat('yyyy-MM-dd');
 
   final String baseUrl =
-      "http://ec2-56-228-15-3.eu-north-1.compute.amazonaws.com/";
+      "https://www.bbbprediction.com/";
 
   @override
   void initState() {

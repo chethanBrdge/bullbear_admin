@@ -42,7 +42,7 @@ class _BetsScreenState extends State<BetsScreen> {
       final token = prefs.getString('access_token');
       final dio = Dio();
 
-      dio.options.baseUrl = "http://ec2-56-228-15-3.eu-north-1.compute.amazonaws.com/";
+      dio.options.baseUrl = "https://www.bbbprediction.com/";
       dio.options.headers = {
         "Authorization": "Bearer $token",
         "Content-Type": "application/json",

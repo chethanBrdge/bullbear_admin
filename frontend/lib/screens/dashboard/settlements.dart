@@ -39,7 +39,7 @@ class _SettlementsScreenState extends State<SettlementsScreen> {
       final dio = Dio();
 
       dio.options.baseUrl =
-          "http://ec2-56-228-15-3.eu-north-1.compute.amazonaws.com";
+          "https://www.bbbprediction.com";
       dio.options.headers = {
         "Authorization": "Bearer $token",
         "Content-Type": "application/json",
@@ -81,7 +81,7 @@ class _SettlementsScreenState extends State<SettlementsScreen> {
       final dio = Dio();
 
       dio.options.baseUrl =
-          "http://ec2-56-228-15-3.eu-north-1.compute.amazonaws.com";
+          "https://www.bbbprediction.com";
       dio.options.headers = {
         "Authorization": "Bearer $token",
         "Content-Type": "application/json",

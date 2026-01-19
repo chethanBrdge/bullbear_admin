@@ -7,7 +7,7 @@ import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 class API {
   final Dio _dio = Dio();
 
-  String urlprefix = "http://ec2-56-228-15-3.eu-north-1.compute.amazonaws.com";
+  String urlprefix = "https://www.bbbprediction.com";
 
   API() {
     _dio.options.baseUrl = urlprefix;
